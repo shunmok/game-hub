@@ -1,5 +1,5 @@
 import { Text } from "@chakra-ui/react";
-import useGames from "../useGames";
+import useGames from "../hooks/useGames";
 
 const GameGrid = () => {
   const { games, error } = useGames();
