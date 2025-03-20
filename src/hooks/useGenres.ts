@@ -9,6 +9,6 @@ export interface Genre {
 //   count: number;
 //   results: Genre[];
 // }
-const useGenres = () => useData<Genre>('/xgenres');
+const useGenres = () => useData<Genre>('/genres');
 
 export default useGenres;
